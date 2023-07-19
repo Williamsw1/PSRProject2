@@ -14,3 +14,4 @@ public class BooleanComplement
 		System.out.println(!d);// true
 	}
 }
+
