@@ -7,6 +7,7 @@ public class ReverseWordsStringUsingStringBuilder {
 
 		String reversedStr = reverseWords(str);
 		System.out.println("Reversed String: " + reversedStr);
+	
 	}
 
 	public static String reverseWords(String input) {
@@ -15,10 +16,17 @@ public class ReverseWordsStringUsingStringBuilder {
 
 		// Reverse the order of the words
 		StringBuilder reversed = new StringBuilder();
-		for (int i = words.length - 1; i >= 0; i--) {
+		for (int i = words.length - 1; i >= 0; i--) 
+		{
+			
 			reversed.append(words[i]).append(" ");
 		}
-
 		return reversed.toString().trim();
+		
+		
 	}
 }
+
+
+
+

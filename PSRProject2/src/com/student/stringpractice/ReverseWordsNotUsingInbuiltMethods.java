@@ -3,10 +3,12 @@ package com.student.stringpractice;
 public class ReverseWordsNotUsingInbuiltMethods {
 
 	
-	static void reverse(char str[], int start, int end) {
+	static void reverse(char str[], int start, int end) 
+	{
 		char temp;
 
-		while (start <= end) {
+		while (start <= end) 
+		{
 			temp = str[start];
 			str[start] = str[end];
 			str[end] = temp;
@@ -16,10 +18,13 @@ public class ReverseWordsNotUsingInbuiltMethods {
 	}
 
 	
-	static char[] reverseWordsInString(char[] inputString) {
+	static char[] reverseWordsInString(char[] inputString) 
+	{
 		int start = 0;
-		for (int end = 0; end < inputString.length; end++) {
-			if (inputString[end] == ' ') {
+		for (int end = 0; end < inputString.length; end++) 
+		{
+			if (inputString[end] == ' ') 
+			{
 				reverse(inputString, start, end - 1);
 				start = end + 1;
 			}
@@ -33,7 +38,8 @@ public class ReverseWordsNotUsingInbuiltMethods {
 		return inputString;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		String input = "i can run much faster ";
 
 		char[] result = reverseWordsInString(input.toCharArray());
