@@ -1,5 +1,7 @@
 package com.student.stringpractice;
 
+import java.util.Arrays;
+
 public class ReverseWordsNotUsingInbuiltMethods 
 {	
 	static void reverse(char str[], int start, int end) 
@@ -12,7 +14,10 @@ public class ReverseWordsNotUsingInbuiltMethods
 			str[start] = str[end];
 			str[end] = temp;
 			start++;
+			System.out.println("start: "+start);
+			
 			end--;
+			System.out.println("end: "+end);
 		}
 	}
 
@@ -40,6 +45,9 @@ public class ReverseWordsNotUsingInbuiltMethods
 	public static void main(String[] args) 
 	{
 		String input = "i can run much faster ";
+//		String input1 = "hello i am here.";
+//		char[] result1 = input1.toCharArray();
+//		System.out.println("result1 char:"+Arrays.toString(result1));
 
 		char[] result = reverseWordsInString(input.toCharArray());
 		System.out.print(result);
