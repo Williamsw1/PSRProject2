@@ -2,8 +2,8 @@ package com.student.stringpractice;
 
 import java.util.Arrays;
 
-public class StringToCharPrintUsingArraysToStringMethod {
-
+public class StringToCharPrintUsingArraysToStringMethod 
+{
 	public static void main(String[] args) {
 		String s = "i like this program very much ";
 		char[] p = s.toCharArray();

@@ -6,7 +6,7 @@ class ReverseIndividualWordInString
 
 	public static void main(String[] args) 
 	{
-		String str = "Java Programming";
+		String str = "Java Programming Problems";
 		
 		String[] words = str.split(" ");
 		String revString = "";

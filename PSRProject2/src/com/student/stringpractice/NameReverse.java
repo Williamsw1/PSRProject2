@@ -6,7 +6,7 @@ public class NameReverse {
 	public static void main(String[] args)
 	{
 		String[] name= {"john smith","jane mith","mich bons"};
-		for(String nam:name) //3 times
+		for(String nam:name)
 		{
 			System.out.println("Original name"+nam+",Reversed"+reversedName(nam));
 		}

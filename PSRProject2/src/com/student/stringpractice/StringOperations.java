@@ -63,9 +63,6 @@ public class StringOperations {
 		
 		char ch=str1.charAt(4);
 		System.out.println("Character in position: "+ch);
-		
-		
-		
 		//checking for its contents
 		if (str1.equals(str2))
 

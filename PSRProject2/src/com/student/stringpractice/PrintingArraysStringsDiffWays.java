@@ -2,8 +2,10 @@ package com.student.stringpractice;
 
 import java.util.Arrays;
 
-public class PrintingArraysStringsDiffWays {
-	public static void main(String args[]) {
+public class PrintingArraysStringsDiffWays 
+{
+	public static void main(String args[]) 
+	{
 
 		String[] name = { "john smith", "jane mith", "mich bons" };
 		System.out.println("String s printing" + Arrays.toString(name));

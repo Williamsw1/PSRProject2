@@ -1,8 +1,10 @@
 package com.student.stringpractice;
 
-public class ReverseStringWordNotReverseOrder {
+public class ReverseStringWordNotReverseOrder 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		String str = "Java Programming";
 		//String revString = "";
 		String separate[] = str.split(" ");

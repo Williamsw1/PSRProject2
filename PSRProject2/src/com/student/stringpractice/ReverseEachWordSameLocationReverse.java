@@ -19,9 +19,10 @@ public class ReverseEachWordSameLocationReverse {
 */
 
 //Another approach
-public class ReverseEachWordSameLocationReverse {
-	public static void main(String[] args) {
-		
+public class ReverseEachWordSameLocationReverse 
+{
+	public static void main(String[] args) 
+	{		
 		String str = "i am going to traval for a long distance";
 		String[] words=str.split("\\s");
 		String reverseString="";

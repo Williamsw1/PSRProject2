@@ -1,8 +1,7 @@
 package com.student.stringpractice;
 
-public class ReverseWordsNotUsingInbuiltMethods {
-
-	
+public class ReverseWordsNotUsingInbuiltMethods 
+{	
 	static void reverse(char str[], int start, int end) 
 	{
 		char temp;

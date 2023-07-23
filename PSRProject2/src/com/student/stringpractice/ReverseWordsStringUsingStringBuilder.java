@@ -1,8 +1,10 @@
 package com.student.stringpractice;
 
-public class ReverseWordsStringUsingStringBuilder {
+public class ReverseWordsStringUsingStringBuilder 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		String str = "i am going to traval for a long distance";
 
 		String reversedStr = reverseWords(str);
@@ -10,7 +12,8 @@ public class ReverseWordsStringUsingStringBuilder {
 	
 	}
 
-	public static String reverseWords(String input) {
+	public static String reverseWords(String input) 
+	{
 
 		String[] words = input.split("\\s+");
 
