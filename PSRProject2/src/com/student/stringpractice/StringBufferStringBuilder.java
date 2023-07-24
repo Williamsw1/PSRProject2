@@ -4,7 +4,8 @@ import java.lang.String;
 import java.lang.StringBuffer;
 //import java.lang.StringBuilder; //use this while in StringBuilder class
 
-public class StringBufferStringBuilder {
+public class StringBufferStringBuilder
+{
 	public static void main(String[] args) {
 
 		// Create a new StringBuffer
