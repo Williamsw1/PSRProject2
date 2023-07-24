@@ -6,7 +6,8 @@ import java.lang.StringBuffer;
 
 public class StringBufferStringBuilder
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 
 		// Create a new StringBuffer
 		StringBuffer sb = new StringBuffer("Hello");
