@@ -46,11 +46,32 @@ class BankDetails
 		System.out.println("Phone: "+phoneNumber);
 	}
 
-	public void deposit(int amount) {
+	public void deposit(int amount) 
+	{
 		if(amount>0)
 		{
 			balance+=amount;
 			System.out.println("balance amount: "+balance);
+		}
+		else
+		{
+			System.out.println("Invalid amount for deposit");
+		}
+		
+		
+	}
+
+	public void withdraw(double amount) {
+		if(amount>0 && amount<=balance)
+		{
+			balance-=amount;
+			System.out.println("Withdrawn: "+amount);
+			System.out.println("New balance: "+balance);
+			
+		}
+		else
+		{
+			System.out.println("You are trying to widthraw the amount which not available");
 		}
 		
 	}
@@ -71,6 +92,7 @@ class BankAccount
 		obj1.employee();
 		System.out.println("balance: "+obj1.balance);
 		obj1.deposit(1000);
+		obj1.withdraw(500);
 		
 	
 	}
