@@ -1,5 +1,5 @@
 package com.student.stringpractice;
-
+import java.lang.String;
 public class StringCharPrint 
 {
 

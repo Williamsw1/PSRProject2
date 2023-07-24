@@ -1,6 +1,6 @@
 package com.student.stringpractice;
 
-import java.io.*;
+import java.lang.String;
 
 class KeywordCounter {
 
