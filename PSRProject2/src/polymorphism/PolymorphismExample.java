@@ -28,7 +28,10 @@ public class PolymorphismExample
 		
 	Animal obj1 = new Animal();
 	
+	//upcasting
 	Animal obj2 = new Dog();
+	
+	
 	Animal obj3 = new Pig();
 	
 	obj1.animalSound();
