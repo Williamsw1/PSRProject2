@@ -1,7 +1,12 @@
 package inheritanceTypes;
 
-class Animal
+class Animal1
 {
+	Animal1()
+	{
+		super();
+	}
+	
 	void eat()
 	{
 		System.out.println("Animals are eating");
@@ -12,7 +17,7 @@ class Animal
 	}
 
 }
-class Dog extends Animal
+class Dog1 extends Animal1
 {
 	void bark()
 	{
@@ -20,7 +25,7 @@ class Dog extends Animal
 	}
 }
 
-class HomeDog extends Dog
+class HomeDog extends Dog1
 {
 	void biting()
 	{
