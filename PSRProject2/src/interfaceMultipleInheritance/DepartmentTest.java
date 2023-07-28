@@ -45,8 +45,6 @@ interface OverWorkBonus
 class DeptDept1 extends EmployeeDetails1 implements Salary,OverWorkBonus
 {
 	int salary;
-	
-
 	public void insertsalary(int salary)
 	{
 		this.salary=salary;
@@ -57,7 +55,6 @@ class DeptDept1 extends EmployeeDetails1 implements Salary,OverWorkBonus
 		System.out.println("DeptDept1: "+this.salary);
 		System.out.println("DeptDept1");
 	}
-
 
 	void empDetails() 
 	{
@@ -75,8 +72,7 @@ class DeptDept1 extends EmployeeDetails1 implements Salary,OverWorkBonus
 		}
 		System.out.println("Final bonus amount: "+final_total);	
 	}
-	
-	
+		
 }
 
 class DeptDept2 implements Salary
