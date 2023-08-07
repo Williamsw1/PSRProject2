@@ -6,11 +6,11 @@ import java.lang.Thread;
 
 public class ThreadWaitSleepObject {
 	
-	//public static Object LOCK = new Object();
+	//public final static Object LOCK = new Object();
 	
 	
 public static void main(String[] args) throws InterruptedException {
-	final Object LOCK = new Object();
+	Object LOCK = new Object();
 	Thread.sleep(1000);
 	
 	
