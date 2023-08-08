@@ -50,6 +50,7 @@ public class QueueImplementation {
 	public static void main(String[] args) {
 
 		Queue<Student> studentQueue = new LinkedList<>();
+		
 		studentQueue.add(new Student("XXX", 1000, "CSE"));
 		studentQueue.add(new Student("YYY", 2000, "IT"));
 		System.out.println("Students information to be printed");
